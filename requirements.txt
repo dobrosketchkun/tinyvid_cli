@@ -1,0 +1,10 @@
+# TinyPNG-ish CLI Requirements
+
+# Python wrapper for pngquant
+pngquant
+
+# Note: You also need the pngquant binary installed:
+#   Windows: https://pngquant.org/
+#   macOS:   brew install pngquant
+#   Linux:   sudo apt install pngquant
+
