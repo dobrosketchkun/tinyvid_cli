@@ -1,9 +1,26 @@
-# TinyPNG-ish CLI Requirements
-
-# Python wrapper for pngquant
+# Python packages
 pngquant
+rich
+pillow  # Optional: fallback for tinyjpg_cli.py if mozjpeg/jpegtran not available
 
-# Note: You also need the pngquant binary installed:
+# System binaries (not pip-installable):
+# - FFmpeg (for tinyaudio_cli.py and tinyvid_cli.py)
+#   Windows: winget install ffmpeg (or https://www.ffmpeg.org/download.html)
+#   macOS:   brew install ffmpeg
+#   Linux:   sudo apt install ffmpeg
+#
+# - mozjpeg (for tinyjpg_cli.py, optional but recommended)
+#   Windows: Download from https://mozjpeg.codelove.de/binaries.html
+#            Place cjpeg.exe in ./mozjpeg/ folder
+#   macOS:   brew install mozjpeg
+#   Linux:   Build from https://github.com/mozilla/mozjpeg
+#
+# - jpegtran (for tinyjpg_cli.py lossless preset, optional)
+#   Part of libjpeg-turbo: https://libjpeg-turbo.org/
+#   macOS:   brew install libjpeg-turbo
+#   Linux:   sudo apt install libjpeg-turbo-progs
+#
+# - pngquant (for tinypng_cli.py)
 #   Windows: https://pngquant.org/
 #   macOS:   brew install pngquant
 #   Linux:   sudo apt install pngquant
