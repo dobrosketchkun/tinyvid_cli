@@ -4,7 +4,7 @@ Four CLI tools for compressing stuff.
 
 ## Why?
 
-I wanted local tools that do what [tinyvid.io](https://tinyvid.io) and [tinypng.com](https://tinypng.com) do without uploading files. And maybe add something to it myself. That's it.
+I wanted local tools that do what [tinyvid.io](https://tinyvid.io) and [tinypng.com](https://tinypng.com) do without uploading files. And maybe add something to it myself, like for audio. That's it.
 
 ## Tools
 
